@@ -1,0 +1,491 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    padding: 0;
+    padding-left: 3rem;
+    margin: 0;
+}
+
+.nav-item {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.logo-main {
+    color: white;
+    font-family: Titan One;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-family: Titan One;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+    padding-right: 3rem;
+}
+
+.icons i {
+    color: white;
+    font-size: 20px;
+}
+
+.main-page {
+    color: black;
+    padding-top: 50px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.product-sizes {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.heading-desc {
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.price-and-rating {
+    align-items: center;
+    padding: 1rem 0rem 0rem 0rem;
+    gap: 1.5rem;
+}
+
+.price-and-rating .price {
+    gap: 1rem;
+}
+
+.price-and-rating .price {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.para-desc {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: justify;
+    width: 70%;
+    padding: 2rem 0rem;
+    border-bottom: solid 1px black;
+}
+
+.size-txt {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.5rem 0rem;
+}
+
+.size-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    width: 70%;
+}
+
+.size-btn-main {
+    border: 1px solid black;
+    width: max-content;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color: white;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.size-btn {
+    border: 1px solid #CFCFCF;
+    color: #CFCFCF;
+    width: max-content;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color: white;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.add-to-cart {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 2px solid black;
+    width: 70%;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.pay-by-gpay {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 0.5rem 0rem;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.gpay-txt {
+    margin: auto;
+}
+
+.pay-font {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.buy-with {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.info-payment-desc {
+    width: 70%;
+    border-bottom: 1px solid black;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt-info-desc-pay {
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.bi-chevron-down {
+    font-size: 20px;
+}
+
+.size-chart-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    margin-top: 30px;
+    border-top: 1px solid black;
+}
+
+.size-chart-txt {
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.size-chart-icon {
+    font-style: 30px;
+}
+
+/* more from us div */
+
+
+.more-from-us {
+    margin-top: 100px;
+}
+
+.heading-more {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.desc-more {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 70%;
+    color: black;
+}
+
+.price-more {
+    font-family: Poppins;
+    width: max-content;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #696969;
+}
+
+.more-products {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.product-more {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.end-line {
+    padding-bottom: 50px;
+}
+
+
+.footer {
+    background: white;
+    padding: 3rem 0rem;
+}
+
+.footer-internal {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.footer .brand-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .info-icons {
+    display: flex;
+    gap: 3rem;
+    width: max-content;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.footer .faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: black;
+    gap: 1.4rem;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.your-brand-txt {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.your-brand-inc {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.agency-hq {
+    color: black;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.your-txt{
+    border-bottom: 2px solid #ff5733;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:980px) {
+    .navbar {
+        width: 100% !important;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar ul {
+        gap: 1rem;
+        padding-left: 1rem;
+    }
+
+    .navbar .right {
+        padding-right: 1rem;
+    }
+
+    .product-sizes {
+        gap: 0;
+    }
+
+    .product-sizes .img-product {
+        width: 20%;
+    }
+
+    .heading-desc {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .price-and-rating {
+        justify-content: space-between;
+        padding-right: 1rem;
+    }
+
+    .para-desc {
+        width: 100%;
+    }
+
+    .size-btn-main {
+        padding: 0.5rem 0.5rem;
+    }
+
+    .faq-list{
+        gap: 0;
+    }
+
+    .size-btns {
+        width: 100%;
+    }
+
+    .size-btn {
+        padding: 0.5rem 0.5rem;
+    }
+
+    .add-to-cart {
+        width: 100%;
+    }
+
+    .pay-by-gpay {
+        width: 100%;
+    }
+
+    .info-payment-desc {
+        width: 100%;
+    }
+
+    .product-more {
+        width: 50%;
+    }
+
+    .footer .name .your-brand-txt{
+        font-size: 18px;
+    }
+
+    .footer .brand-location .bold-text .your-brand-inc{
+        font-size: 15px;
+    }
+
+    .footer .agency-hq{
+        font-size: 15px;
+    }
+
+    .footer .faq-list li{
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width:1025px) {
+    .product-sizes {
+        gap: 0rem;
+    }
+}
